@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		587CC6592D5BCE9F00ED6DD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587CC6582D5BCE9F00ED6DD5 /* AppDelegate.swift */; };
 		587CC65B2D5BCE9F00ED6DD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587CC65A2D5BCE9F00ED6DD5 /* SceneDelegate.swift */; };
-		587CC65D2D5BCE9F00ED6DD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587CC65C2D5BCE9F00ED6DD5 /* ViewController.swift */; };
+		587CC65D2D5BCE9F00ED6DD5 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587CC65C2D5BCE9F00ED6DD5 /* MainTabBarViewController.swift */; };
 		587CC6622D5BCEA400ED6DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587CC6612D5BCEA300ED6DD5 /* Assets.xcassets */; };
 		587CC6652D5BCEA400ED6DD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587CC6632D5BCEA400ED6DD5 /* LaunchScreen.storyboard */; };
 		587CC6702D5BCEA400ED6DD5 /* OTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587CC66F2D5BCEA400ED6DD5 /* OTTTests.swift */; };
@@ -38,7 +38,7 @@
 		587CC6552D5BCE9F00ED6DD5 /* OTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587CC6582D5BCE9F00ED6DD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		587CC65A2D5BCE9F00ED6DD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		587CC65C2D5BCE9F00ED6DD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		587CC65C2D5BCE9F00ED6DD5 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		587CC6612D5BCEA300ED6DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		587CC6642D5BCEA400ED6DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		587CC6662D5BCEA400ED6DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,9 +97,10 @@
 		587CC6572D5BCE9F00ED6DD5 /* OTT */ = {
 			isa = PBXGroup;
 			children = (
+				587CC6882D5BDC7A00ED6DD5 /* Controllers */,
 				587CC6582D5BCE9F00ED6DD5 /* AppDelegate.swift */,
 				587CC65A2D5BCE9F00ED6DD5 /* SceneDelegate.swift */,
-				587CC65C2D5BCE9F00ED6DD5 /* ViewController.swift */,
+				587CC65C2D5BCE9F00ED6DD5 /* MainTabBarViewController.swift */,
 				587CC6612D5BCEA300ED6DD5 /* Assets.xcassets */,
 				587CC6632D5BCEA400ED6DD5 /* LaunchScreen.storyboard */,
 				587CC6662D5BCEA400ED6DD5 /* Info.plist */,
@@ -122,6 +123,13 @@
 				587CC67B2D5BCEA400ED6DD5 /* OTTUITestsLaunchTests.swift */,
 			);
 			path = OTTUITests;
+			sourceTree = "<group>";
+		};
+		587CC6882D5BDC7A00ED6DD5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587CC65D2D5BCE9F00ED6DD5 /* ViewController.swift in Sources */,
+				587CC65D2D5BCE9F00ED6DD5 /* MainTabBarViewController.swift in Sources */,
 				587CC6592D5BCE9F00ED6DD5 /* AppDelegate.swift in Sources */,
 				587CC65B2D5BCE9F00ED6DD5 /* SceneDelegate.swift in Sources */,
 			);
